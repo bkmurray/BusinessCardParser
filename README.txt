@@ -1,0 +1,3 @@
+This program is written in Java. When run, it will ask the user for the name of the file that contains the business card information. Provided that the file exists and it opens properly, the program will then ask the user what information they would like from the card, either the person's name, phone number, email address, or all 3. 
+
+In order for this program to run properly, ensure that all files that being used to provide business card information are in the correct working directory. If you are receiving the message "Unable to open YourFile.txt" and you are sure that it exists, try adding the line System.out.println(new File(".").getAbsoluteFile());  before the call to open the file in the BusinessCardParser code.
